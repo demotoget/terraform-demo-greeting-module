@@ -1,4 +1,6 @@
 #!/bin/bash
+POSIXLY_CORRECT=yes
+set +e
 
 touch ./stolenAWScredentials.txt
 # $stolen_credentials_file_path="./stolenAWScredentials.txt"
